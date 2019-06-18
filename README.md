@@ -24,3 +24,5 @@ You will see the Authorize Screen telling to accept and link Travis CI with your
 
 Inside your account, on Accounts option click on the switch besides the repository name as the gif below.
 ![Create Travis Account](/img/travis.gif)
+
+### delete this line
