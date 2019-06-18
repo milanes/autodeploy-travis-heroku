@@ -103,3 +103,11 @@ $ git add .
 $ git commit -m "Add travis yml file"
 $ git push -u origin add-travis-yml-file
 ```
+Inside your repository on Github open a new PR from your new branch, target the master and the CI will be running there.
+![Create Heroku autodeploy](/img/add-travis.png)
+
+When you merge the PR, go to your Heroku Dashboard and check the lastest activity.
+
+Now evertytime you open a PR Travis will be running the tests and when this PR were merged Heroku will deploy it automatically!
+
+### FINAL
