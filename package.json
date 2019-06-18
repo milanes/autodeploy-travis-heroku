@@ -1,0 +1,22 @@
+{
+  "name": "autodeploy-travis-heroku",
+  "version": "1.0.0",
+  "description": "### Step by Step: 1. Create a GitHub repository; 2. Create an account on Travis CI and link it with your repository; 3. Create an account on Heroku and link it with the repository; 4. Start the heroku console from the terminal; 5. Setup a travis yml file; 6. Push it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milanes/autodeploy-travis-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milanes/autodeploy-travis-heroku/issues"
+  },
+  "homepage": "https://github.com/milanes/autodeploy-travis-heroku#readme"
+}
