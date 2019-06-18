@@ -1,1 +1,11 @@
 language: node_js
+
+cache: 
+- node_modules
+deploy: 
+  provider: heroku
+  api_key:
+    secure: F1qTs/xqMatyrGvigEHEi0FVh1KJbjm3bjSk55fPltQXbUzuv8WTPZ4nh3gPoYsWoyqa9pMF496Bqwuy/LJK+jbzknkkhpGfb/UB66+rtikFVl1MfoIZksFu/2mcX3MWwalLhh2647tZ5NYbxlOPgFY1+cWneKmzg1qrNSL1v9M5/qQu/3B8vNTFrF5oy3gKoQi2SAArrzWKYOgISm6gkofEtbbKWN9Ie3uHdC6con5sOf5KU2+w4y5wfrYhXmu3Ks5rllumiHoF0B6yun0qy7oxjYS4hKlf3diN712wDvkBw1IbBH3qS034Eet1HaLYJ3llt7N4Ug+6wFNJCqEl34rFTvugcthFlWkfK8tcsSz7E3n6yhqYlFeyTPLbHaiHU8E7gd/abbHVyhDGCcgWkPjwh+iSPmxHxmxSqfDCl+UGzaz7GDK+mBHuh9M8f1EaDVAmCOQ0wqwzVH9l7DLThdGXlpWGaORlEZrE6ijoJdpajtNDxIJo4vj1n/gk3mWoynq0NfSfaxVWrTQys7YXTYGw0wmjbdt06w1Yi9k+AkENXe6zUy6WciFiqg5eZOL90zmuX+AtKawO5ksljVpncE9fq1uWLK8rp5SL8CTPCs++cfQkRmq0E/bbQEdAlRmGw9CzSxyz9LRXHVD6OZxqevev/5XtxbyRPqbaQ6qf52I=
+  app: autodeploy-travis-heroku
+  on: 
+    repo: milanes/autodeploy-travis-heroku
