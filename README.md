@@ -110,4 +110,9 @@ When you merge the PR, go to your Heroku Dashboard and check the lastest activit
 
 Now evertytime you open a PR Travis will be running the tests and when this PR were merged Heroku will deploy it automatically!
 
-### FINAL
+
+### Bibliography
+https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f
+https://docs.travis-ci.com/
+https://devcenter.heroku.com/
+https://github.com/yodra/node-travis-hello-world
