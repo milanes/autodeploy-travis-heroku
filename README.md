@@ -25,4 +25,9 @@ You will see the Authorize Screen telling to accept and link Travis CI with your
 Inside your account, on Accounts option click on the switch besides the repository name as the gif below.
 ![Create Travis Account](/img/travis.gif)
 
-### delete this line
+### Create an account on Heroku and link with the repository
+At https://www.heroku.com/ create a new account, you need to confirm your email and all that stuff. When you have finished, click on "Create New App".
+
+Inside your application, go to "Deploy", search for "Deployment method" and then select the GitHub option.
+
+A wild window appears, "Authorize Heroku", accept it, and to complete the connection just search by the name of the repository and connect!
