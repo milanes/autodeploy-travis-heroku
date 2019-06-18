@@ -112,7 +112,7 @@ Now evertytime you open a PR Travis will be running the tests and when this PR w
 
 
 ### Bibliography
-https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f
-https://docs.travis-ci.com/
-https://devcenter.heroku.com/
-https://github.com/yodra/node-travis-hello-world
+https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f <br>
+https://docs.travis-ci.com/ <br>
+https://devcenter.heroku.com/ <br>
+https://github.com/yodra/node-travis-hello-world <br>
